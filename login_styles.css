@@ -75,6 +75,15 @@ ul li{
     padding: 15px 25px;
     font-size: 20px;
 }
+.buttons-login .normal-btn{
+    background-color: transparent;
+    color: #FCC822;
+    background-color: white;
+    border: 1px solid #FCC822;
+    /* margin: 0px 40px; */
+    padding: 15px 25px;
+    font-size: 20px;
+}
 .yellow-btn a{
     text-decoration: none;
     color: white;
@@ -86,36 +95,55 @@ ul li{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 30px;
+    align-items: center;
+    gap: 35px;
 }
 .left-text-div h2{
-    font-size: 72px;
+    font-size: 64px;
     font-weight: 500;
 }
-.help{
+.text{
     display: flex;
-    align-items: center;
-    gap: 20px;
-    font-size: 20px;
-    color: #a5a0a0;
 }
-.stand-line{
-    color: #333333;
-    font-size: 50px;
-    font-weight: 100;
+.welcome-back{
+    text-align: center;
+    color: #4D4D4D;
 }
-.down-main-left{
+.email-password{
     display: flex;
-    gap: 50px;
+    width: 70%;
+    flex-direction: column;
 }
-.know-more{
+.login-place{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #E0DDDD;
+    color: #FCC822;
+}
+.login-place:focus-within{
+    border-left: 6px solid #FCC822;
+    /* padding-left: 4px; */
+}
+.below-place{
+    margin: 0 auto;
+    width: 70%;
     display: flex;
-    font-size: 20px;
-    gap: 10px;
-    align-items: center;
+    justify-content: space-evenly;
+    /* gap: 40px; */
+}
+.alt-login{
+    margin: 0 auto;
+    width: 45%;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+.alt-login a{
+    text-decoration: none;
+    color: #FCC822;
 }
 .main-img{
-    background-image: url(assets/pexels-cup-of-couple-6177574.jpg);
+    background-image: url(assets/pexels-proxyclick-2451622.jpg);
     background-size: cover;
     /* background-repeat: no-repeat; */
     background-position: center center;
