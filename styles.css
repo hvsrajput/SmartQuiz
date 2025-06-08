@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", "Roboto";
+}
+nav{
+    margin: 10px auto;
+    padding: 10px;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+}
+.logo h1{
+    font-size: 32px;
+    font-weight: normal;
+}
+.black-text{
+    color: #333333;
+}
+.yellow-text{
+    color: #FCC822;
+}
+.right-nav{
+    display: flex;
+    gap: 10px;
+    color: #E0E0E0;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+ul li{
+    padding: 10px;
+    list-style-type: none;
+}
+.line{
+    margin: 0 auto;
+    height: 0.25px;
+    width: 95vw;
+    background-color: #E0E0E0;
+}
+.normal-btn{
+    background-color: transparent;
+    color: #FCC822;
+    border: 1px solid #FCC822;
+    margin: 0px 40px;
+    padding: 0px 20px;
+    font-size: 16px;
+}
+.main-start{
+    display: grid;
+    margin: 3px auto;
+    width: 90vw;
+    height: 90vh;
+    gap: 10px;
+    grid-template-columns: repeat(2, 45vw);
+}
+.yellow-btn{
+    background-color: transparent;
+    color: white;
+    background-color:  #FCC822;
+    border: none;
+    /* margin: 0px 40px; */
+    padding: 15px 25px;
+    font-size: 20px;
+}
+.left-text-div{
+    margin: 0 auto;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.left-text-div h2{
+    font-size: 72px;
+    font-weight: 500;
+}
+.help{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    color: #a5a0a0;
+}
+.stand-line{
+    color: #333333;
+    font-size: 50px;
+    font-weight: 100;
+}
+.down-main-left{
+    display: flex;
+    gap: 50px;
+}
+.know-more{
+    display: flex;
+    font-size: 20px;
+    gap: 10px;
+    align-items: center;
+}
+.main-img{
+    background-image: url(assets/pexels-cup-of-couple-6177574.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+}
