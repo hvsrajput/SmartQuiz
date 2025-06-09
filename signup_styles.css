@@ -109,30 +109,31 @@ ul li{
     text-align: center;
     color: #4D4D4D;
 }
-.email-password{
+.details{
     display: flex;
     width: 70%;
     flex-direction: column;
 }
-.login-place{
+.place{
     width: 100%;
     padding: 20px;
+    margin: 10px 10px 10px 0px;
     border: 1px solid #E0DDDD;
     color: #FCC822;
 }
-.login-place:focus-within{
+.name{
+    width: 110%;
+    display: flex;
+    /* gap: 40px; */
+    /* margin: 20px; */
+    /* justify-content: space-evenly; */
+}
+.name .place{
+    width: 50%;
+}
+.place:focus-within{
     border-left: 6px solid #FCC822;
     /* padding-left: 4px; */
-}
-.below-place{
-    margin: 0 auto;
-    width: 70%;
-    display: flex;
-    justify-content: space-evenly;
-    /* gap: 40px; */
-}
-input[type="checkbox"]{
-    accent-color: #FCC822;
 }
 .alt-login{
     margin: 0 auto;
@@ -146,7 +147,7 @@ input[type="checkbox"]{
     color: #FCC822;
 }
 .main-img{
-    background-image: url(assets/pexels-proxyclick-2451622.jpg);
+    background-image: url(assets/pexels-karolina-grabowska-4476623.jpg);
     background-size: cover;
     /* background-repeat: no-repeat; */
     background-position: center center;
