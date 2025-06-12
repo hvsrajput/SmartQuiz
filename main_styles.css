@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", "Roboto";
+}
+nav{
+    margin: 10px auto;
+    padding: 10px;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+}
+.logo a{
+    display: flex;
+    cursor: pointer;
+    text-decoration: none;
+}
+.logo h1{
+    font-size: 32px;
+    font-weight: normal;
+}
+.black-text{
+    color: #333333;
+}
+.yellow-text{
+    color: #FCC822;
+}
+.right-nav{
+    display: flex;
+    gap: 10px;
+    color: #E0E0E0;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+ul li{
+    padding: 10px;
+    list-style-type: none;
+}
+.line{
+    margin: 0 auto;
+    height: 0.25px;
+    width: 95vw;
+    background-color: #E0E0E0;
+}
+.normal-btn{
+    background-color: transparent;
+    color: #FCC822;
+    border: 1px solid #FCC822;
+    margin: 0px 40px;
+    padding: 0px 20px;
+    font-size: 16px;
+}
+.normal-btn a{
+    text-decoration: none;
+    color: #FCC822;
+}
+.yellow-btn{
+    background-color: transparent;
+    color: white;
+    background-color:  #FCC822;
+    border: none;
+    /* margin: 0px 40px; */
+    padding: 15px 25px;
+    font-size: 20px;
+}
+.yellow-btn a{
+    text-decoration: none;
+    color: white;
+}
+.dashboard-content{
+    margin: 20px auto;
+    width: 70%;
+}
+.search-bar{
+    display: flex;
+    justify-content: center;
+}
+.search-bar input{
+    padding: 10px 200px 10px 10px;
+    color: #FCC822;
+}
+.my-created, .my-attempted{
+    /* color: #333333; */
+    margin: 23px;
+}
+.attempt-quizzes , .created-quizzes{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+.card{
+    /* padding: 7px; */
+    background-color: #E0E0E0;
+    color: #333333;
+    width: 297px;
+    height: 162px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    /* justify-content: center; */
+}
+.card h4{
+    font-size: 16px;
+    text-align: center;
+}
+.thumbnail{
+    margin: 0 auto;
+    width: 100%;
+    height: 80%;
+    border: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-size: cover;
+    background-position: center center;
+}
+.quote{
+    background-color: #FCC822;
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
