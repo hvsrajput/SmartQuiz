@@ -8,7 +8,7 @@
 nav{
     margin: 10px auto;
     padding: 10px;
-    width: 90vw;
+    width: 90%;
     display: flex;
     justify-content: space-between;
 }
@@ -36,14 +36,14 @@ nav ul{
     display: flex;
     gap: 20px;
 }
-ul li{
+nav ul li{
     padding: 10px;
     list-style-type: none;
 }
 .line{
     margin: 0 auto;
     height: 0.25px;
-    width: 95vw;
+    width: 95%;
     background-color: #E0E0E0;
 }
 .normal-btn{
@@ -61,10 +61,11 @@ ul li{
 .main-start{
     display: grid;
     margin: 3px auto;
-    width: 90vw;
-    height: 90vh;
+    width: 90%;
+    height: 90%;
     gap: 10px;
-    grid-template-columns: repeat(2, 45vw);
+    justify-content: space-between;
+    grid-template-columns: repeat(2, 45%);
 }
 .yellow-btn{
     background-color: transparent;
@@ -121,4 +122,114 @@ ul li{
     background-position: center center;
     width: 100%;
     height: 100%;
+}
+.how-it-works{
+    /* background-color: #333333;
+    width: 75%;
+    margin: 20px auto;
+    padding: 30px; */
+    display: grid;
+    grid-template-columns: 25% 70%;
+    justify-content: space-between;
+    align-items: center;
+}
+.features{
+    /* background-color: #333333;
+    width: 75%;
+    margin: 20px auto;
+    padding: 30px; */
+    display: grid;
+    grid-template-columns: 70% 25%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+.about-us{
+    /* background-color: #333333;
+    width: 75%;
+    margin: 20px auto;
+    padding: 30px; */
+    display: grid;
+    grid-template-columns: 25% 70%;
+    justify-content: space-between;
+    align-items: center;
+}
+.redirect-cont{
+    background-color: #FCC822;
+    color: white;
+    width: 75%;
+    margin: 20px auto;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+.redirect-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .redirect-cont h2{
+    background-color: white;
+    color: #FCC822;
+    text-align: center;
+} */
+.image{
+    height: 250px;
+    width: 350px;
+    object-fit: cover;
+    background-position: center center;
+    margin: 10px 20px;
+    /* padding: 0px 20px; */
+    border-radius: 5px;
+}
+.faqs{
+    margin: 64px auto;
+    width: 75%;
+}
+.faq{
+    margin: 10px 0px auto;
+    /* height: 84px; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    /* cursor: pointer; */
+}
+section h2{
+    margin: 10px 0px;
+    font-size: 32px;
+}
+.faq-question{
+    padding: 0px 20px;
+    background-color: #2d2d2d;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+    background-color: #FCC822;
+    color: white;
+    border: 2px solid #FCC822;
+    border-radius: 3px;
+}
+.plus{
+    font-size: 64px;
+    font-weight: 100;
+}
+.faq-answer{
+    background-color: #2d2d2d;
+    margin: 1px auto;
+    padding: 20px;
+    width: 100%;
+    font-size: 24px;
+    background-color: #FCC822;
+    color: white;
+    border: 2px solid #FCC822;
+    border-radius: 3px;
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: #FCC822;
 }
