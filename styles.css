@@ -228,8 +228,48 @@ section h2{
     border: 2px solid #FCC822;
     border-radius: 3px;
 }
-.footer{
+footer{
     width: 100%;
-    height: 400px;
+    height: 500px;
     background-color: #FCC822;
+}
+.footer{
+    padding: 20px;
+    margin: 0 auto;
+    width: 75%;
+}
+.footer p{
+    margin: 36px 0px;
+    font-size: 16px;
+}
+.foot-content-cont{
+    display: grid;
+    grid-template-columns: repeat(4, 288px);
+    grid-template-rows: repeat(4, 33px);
+    margin: -12px 0px 30px -12px;
+}
+.footer-content{
+    margin: 12px 0px 0px 12px;
+}
+.footer p a{
+    color: white;
+}
+.footer-content a{
+    color: white;
+    font-size: 14px;
+}
+.footer .lang-select{
+    width: fit-content;
+    margin: 50px 0px;
+}
+.footer .lang-select #language-select{
+    font-weight: 300;
+}
+.netflix-india{
+    font-size: 14px;
+    margin: 30px 0px;
+}
+.google-protection{
+    font-size: 13px;
+    margin-top: 30px;
 }
